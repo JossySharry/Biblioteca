@@ -1,0 +1,83 @@
+body{
+    background: hsl(27, 89%, 68%);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d8e6de, #545555);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #edf1ee, #e9eeee); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+.navBar{
+    background-color: #fff !important;
+}
+
+.elementosNav{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    color: #37474f;
+    font-weight: 700;
+}
+
+.elementos{
+    margin-right: 50px;
+}
+
+.containerImg{
+    width: 20%;
+}
+
+.logo{
+    width: 40%;
+    margin: auto;
+}
+
+
+.mensajeExito{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+
+.mensajeError{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+
+.formulario{
+    width: 400px;
+    background: hwb(192 2% 35% / 0.472);
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 8px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 7px 13px 37px #780d0d;
+    
+}
+
+.divVolver{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.botonVolver{
+    width: 70%;
+}
+
+.botones{
+    box-shadow: 0px 2px 16px 4px rgba(0,0,0,0.36);
+    -webkit-box-shadow: 0px 2px 16px 4px rgba(0,0,0,0.36);
+    -moz-box-shadow: 0px 2px 16px 4px rgba(0,0,0,0.36);
+}
+
+.botones:active{
+    box-shadow: none;
+}
+
+.containerFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
